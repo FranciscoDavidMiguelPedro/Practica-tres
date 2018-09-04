@@ -1,0 +1,38 @@
+header{
+
+			width:85%;
+			height: 250px;
+			border: 21px double #f0f326; 
+			border-radius: 9px;
+			background: #e2b142;
+			margin: 51px auto	10px;
+
+		}
+				header img{
+			display: inline-block;
+			width:300px;
+			 height: 150px;  
+			margin-top: 100px;
+			margin-left: 500px;
+			position: absolute;
+
+		}
+				header h1{
+			display: inline-block;
+			margin-left: 10px;
+			margin-top: 10px;
+			position: absolute;
+			color: #000000;
+			font-size: 4em;
+			font-family: 'PT Serif', serif;
+			text-shadow:2px 4px 4px #E8EAF6;			
+			transition-property: color ,text-shadow;
+			transition-duration:1s,1.5s;
+			-webkit-transition:color 1s;
+			-moz-transition:color 1s;
+
+		}
+		header h1:hover{
+			color:#460eef;
+			text-shadow:8px 8px 8px #e7efe4;
+			}
